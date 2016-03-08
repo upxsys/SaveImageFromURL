@@ -30,6 +30,7 @@
     
 	NSString* jsString = [NSString stringWithFormat:@"%@(\"%i\");", self.cbMethod, error ? 0 : 1];
 	//[super writeJavascript:jsString];
+	[self.commandDelegate evalJs:jsString];
 	
 }
 
