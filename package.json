@@ -1,0 +1,16 @@
+{
+  "name": "SaveImageFromURL",
+  "version": "1.0.0",
+  "description": "SaveImageFromURL",
+  "cordova": {
+    "id": "com.contentecontent.cordova.plugins.saveImage",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+    "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upxsys/SaveImageFromURL.git"
+  }
+}
